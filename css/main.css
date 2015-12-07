@@ -76,3 +76,30 @@ th, td {
     border-style: solid;
     padding: 4px;
 }
+
+/* FOOTERRR  */
+
+footer {
+    background-color: #000;
+    overflow: hidden;
+}
+
+footer h3, u {
+    color: #fff;
+}
+
+footer a {
+    color: tomato;
+    text-decoration: none;
+    
+}
+
+.left {
+    width: 50%;
+    float: left;
+}
+
+.right {
+    width: 50%;
+    float: right;
+}
