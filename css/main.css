@@ -60,3 +60,19 @@ nav li:first-child {
 nav a {
     text-decoration: none;
 }
+
+/* Table  */
+
+table {
+    border-collapse: collapse;
+    border-width: 1px;
+    border-color: #333;
+    border-style: solid;
+}
+
+th, td {
+    border-width: 1px;
+    border-color: #333;
+    border-style: solid;
+    padding: 4px;
+}
