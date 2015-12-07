@@ -33,16 +33,28 @@ or even class="some-other-class technologies some-third-class"
 
 
 /* select all the UL elements that are anywhere insde a NAV element */
+nav {
+    background-color: #ffaa00;
+    display: inline-block;
+    padding: 10px;
+    margin-bottom: 10px;
+}
 
 nav ul {
     list-style: none;
+    padding: 0px;
+    margin: 0px;
 }
 
 nav li {
-    display: inline;
+    display: inline-block;
     border: 1px solid black;
     padding: 5px;
-    margin-left: 10px;
+    margin-left: 15px;
+}
+
+nav li:first-child {
+    margin-left: 0px;
 }
 
 nav a {
